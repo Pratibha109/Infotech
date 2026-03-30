@@ -5,6 +5,8 @@ import { useContext } from 'react';
 
 const LatestCollection = () => {
     const { products } = useContext(ShopContext);
+   // const [latestProducts, setLatestProducts] = React.useState([]);
+     const [latestProducts, setLatestProducts] = useState([]);
     
   return (
     <div className='my-10'>
